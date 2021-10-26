@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eAJAVWlIkbhnfFjbPJGBk5k6wiabw5LrL3HVB9Y5LgywIcU2btWikVzP+wYLG8um0+WcdKPCbtyCvWpJPA6WZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lameck\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
