@@ -1,4 +1,5 @@
-﻿using Flunt.Notifications;
+﻿
+using Flunt.Notifications;
 using Flunt.Validations;
 using Intelitrader.Comum;
 using Intelitrader.Comum.Enum;

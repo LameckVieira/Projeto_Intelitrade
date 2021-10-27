@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0YKv+SBrsxu+m8mS+duucJ8sB4+iGQ9VK1XldBImZ5orH7rvrqMGuBdaUOMan/SpmV0C1QI0UU5W6xgSOKkgJw==",
+  "dgSpecHash": "NEtcaXYAUoMLIKDgjDripNzk4xqv2gKQheumPqIeJXD1o5ZC44thiHZa0vd6EXQG297friNMDOS+hgv0G6DrQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lameck\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\08657641313\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
   ],
   "logs": []
 }
