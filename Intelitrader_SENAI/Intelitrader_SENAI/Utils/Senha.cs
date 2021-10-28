@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Comum.Utils
 {
-    class Senha
+    public static class Senha
     {
 
-        
+        public static string Criptografar(string senha)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(senha);
+        }
+
+        public static bool validarHashes(string senha, string hash)
+        {
+            return BCrypt.Net.BCrypt.Verify(senha, hash);
+        }
 
     }
 }

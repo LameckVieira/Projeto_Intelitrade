@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Entidades
 {
-    class TipoVaga : Base
+    public class TipoVaga : Base
     {
         public TipoVaga(string nomeTipoVaga, string descricao, EnTipoCargo cargo)
         {

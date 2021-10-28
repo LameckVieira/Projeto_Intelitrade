@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Comum.Comandos
 {
-    public interface IResutadosComandos
+    public interface IResultadosComandos
     {
         
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Comum.Comandos
 {
-    public class ResultadosComandosGenericos : IResutadosComandos
+    public class ResultadosComandosGenericos : IResultadosComandos
     {
         public ResultadosComandosGenericos(bool sucesso, string mensagem, object data)
         {

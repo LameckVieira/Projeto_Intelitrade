@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
+        "projectName": "Intelitrader.Dominio",
+        "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
+                "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
+        "projectName": "Intelitrader.Infa.Data",
+        "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
+        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
+        "projectName": "Intelitrader.Comum",
+        "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
+        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
