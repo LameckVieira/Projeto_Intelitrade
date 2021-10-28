@@ -1,9 +1,10 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj": {}
+    "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -83,16 +84,19 @@
       }
     },
     "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj": {
+=======
+    "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj": {
+>>>>>>> 86a9829a887746dee2d8ee64fadad791121f2a06
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
+        "projectUniqueName": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
         "projectName": "Intelitrader.Testes",
-        "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
-        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\obj\\",
+        "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
+        "packagesPath": "C:\\Users\\08657641313\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\08657641313\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
