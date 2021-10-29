@@ -1,14 +1,9 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "V4UlRehMqS40tDgS0vKCExsFbhuYhk6f3woYgIvJpISnuBIBlRrqIrB9ZwvBQGfh1dZC+12eDuH78OtLPmS3MA==",
-=======
-  "dgSpecHash": "kd83/ft56/gjA5cmvBeLAcyt6QDY+KwKcjXr9D4jqm4N5EQqU4Qbqet5o6J2XnwORrUqyNhgbB7UfsdQcCvQxA==",
->>>>>>> 86a9829a887746dee2d8ee64fadad791121f2a06
   "success": true,
-  "projectFilePath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
+  "projectFilePath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
     "C:\\Users\\Lameck\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\Lameck\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\Lameck\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -92,9 +87,13 @@
     "C:\\Users\\Lameck\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Lameck\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Lameck\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
-=======
-    "C:\\Users\\08657641313\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
->>>>>>> 86a9829a887746dee2d8ee64fadad791121f2a06
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

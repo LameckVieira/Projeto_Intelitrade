@@ -64,12 +64,12 @@ namespace Intelitrader.Testes.Entidades
 
         [Fact]
 
-        public void DeveRetornarSeUsuarioForinvalidoCPFIncompleto()
+        public void DeveRetornarSeUsuarioForinvalidoCPFVazio()
         {
             Usuario usuario = new Usuario(
                 "Lameck",
                 "lameck.v.barbosa@gmail.com",
-                "08866677713",
+                "",
                 "119937852",
                 "123456789",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
@@ -82,13 +82,13 @@ namespace Intelitrader.Testes.Entidades
 
         [Fact]
 
-        public void DeveRetornarSeUsuarioForinvalidoTelefoneIncompleto()
+        public void DeveRetornarSeUsuarioForinvalidoTelefoneVazio()
         {
             Usuario usuario = new Usuario(
                 "Lameck",
                 "lameck.v.barbosa@gmail.com",
                 "08866677713",
-                "11993",
+                "",
                 "123456789",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
 

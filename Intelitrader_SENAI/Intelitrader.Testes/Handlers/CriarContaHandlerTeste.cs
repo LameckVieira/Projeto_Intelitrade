@@ -18,17 +18,19 @@ namespace Intelitrader.Testes.Handlers
         public void DeveRetornarCasoDadosDoHandleSejamValidos()
         {
             // Criar um um Comando
-            var command = new CriarContaComandos();
-            command.Nome = "Lameck";
-            command.Email = "lmk@email.com";
-            command.Senha = "1234567890";
-            command.TipoUsuario = Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario;
+            var comandos = new CriarContaComandos();
+            comandos.Nome = "Lameck";
+            comandos.Email = "lmk@email.com";
+            comandos.Senha = "1234567890";
+            comandos.CPF = "08866677713";
+            comandos.Telefone = "11993785259";
+            comandos.TipoUsuario = Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario;
 
             // Criar um manipulador
             var handle = new CriarContaHandle(new FakeUsuarioRepositorio());
 
             // Pegar o resultado
-            var resultado = (ResultadosComandosGenericos)handle.Handler(command);
+            var resultado = (ResultadosComandosGenericos)handle.Handler(comandos);
 
             // Validar Condição
             Assert.True(resultado.Sucesso, "Usuário válidado");

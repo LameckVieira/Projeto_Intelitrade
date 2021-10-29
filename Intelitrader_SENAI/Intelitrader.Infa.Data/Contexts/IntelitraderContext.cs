@@ -34,34 +34,44 @@ namespace Intelitrader.Infa.Data.Contexts
             modelBuilder.Entity<Usuario>().ToTable("Usuario");
 
             // Determinar chaves
+
             modelBuilder.Entity<Usuario>().Property(x => x.Id);
 
             // Nome
+
             modelBuilder.Entity<Usuario>().Property(x => x.Nome).HasMaxLength(40);
             modelBuilder.Entity<Usuario>().Property(x => x.Nome).HasColumnType("Varchar(40)");
             modelBuilder.Entity<Usuario>().Property(x => x.Nome).IsRequired();
 
             // Email
+
             modelBuilder.Entity<Usuario>().Property(x => x.Email).HasMaxLength(60);
             modelBuilder.Entity<Usuario>().Property(x => x.Email).HasColumnType("Varchar(60)");
             modelBuilder.Entity<Usuario>().Property(x => x.Email).IsRequired();
 
             // Senha
+
             modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasMaxLength(200);
             modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasColumnType("Varchar(200)");
             modelBuilder.Entity<Usuario>().Property(x => x.Senha).IsRequired();
-            modelBuilder.Entity<Usuario>().HasIndex(x => x.Email).IsUnique();
 
             // DataCriação
+
             modelBuilder.Entity<Usuario>().Property(x => x.DataCriacao).HasColumnType("DateTime");
 
             // Telefone
-            
+
+            modelBuilder.Entity<Usuario>().Property(x => x.Telefone).HasMaxLength(18);
+            modelBuilder.Entity<Usuario>().Property(x => x.Telefone).HasColumnType("Varchar(18)");
+            modelBuilder.Entity<Usuario>().Property(x => x.Telefone).IsRequired();
 
             // CPF
 
+            modelBuilder.Entity<Usuario>().Property(x => x.CPF).HasMaxLength(18);
+            modelBuilder.Entity<Usuario>().Property(x => x.CPF).HasColumnType("Varchar(18)");
+            modelBuilder.Entity<Usuario>().Property(x => x.CPF).IsRequired();
             #endregion
-
+           
             base.OnModelCreating(modelBuilder);
         }
     }

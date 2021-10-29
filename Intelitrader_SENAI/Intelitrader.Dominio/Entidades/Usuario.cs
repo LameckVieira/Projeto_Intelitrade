@@ -41,6 +41,9 @@ namespace Intelitrader.Dominio.Entidades
         public string Telefone { get; private set; }
         public string CPF { get; private set; }
         public string Senha { get; private set; }
+        //public string Curriculo { get; private set; }
+        //public string RG { get; private set; }
+        //public string Foto { get; private set; }
         public EnTipoUsuario TipoUsuario { get; private set; }
 
 
@@ -60,13 +63,14 @@ namespace Intelitrader.Dominio.Entidades
             }
         }
 
-        public void AtualizaUsuario(string nome, string email, string telefone)
+        public void AtualizaUsuario(string nome, string email, string telefone, string cpf)
         {
             AddNotifications(
                 new Contract<Notification>()
                     .Requires()
-                    .IsNotEmpty(telefone, "Telefone", "Telefone não poder ser vazio")
+                    .IsNull(telefone, "Telefone", "Telefone não poder ser vazio")
                     .IsNotEmpty(nome, "Nome", "Nome não poder ser vazio")
+                    .IsNull(cpf, "CPF", "CPF não poder ser vazio")
                     .IsEmail(email, "Email", "O formato do email está incorreto")
             );
             
@@ -75,6 +79,7 @@ namespace Intelitrader.Dominio.Entidades
                 Nome = nome;
                 Email = email;
                 Telefone = telefone;
+                CPF = cpf;
             }
         }
 
