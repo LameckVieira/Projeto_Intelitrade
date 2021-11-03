@@ -23,6 +23,9 @@ namespace Intelitrader.Testes.Handlers
             comandos.Email = "lmk@email.com";
             comandos.Senha = "1234567890";
             comandos.CPF = "08866677713";
+            comandos.Curriculo = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
+            comandos.Foto = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
+            comandos.RG = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
             comandos.Telefone = "11993785259";
             comandos.TipoUsuario = Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario;
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {}
+    "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
+    "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
+        "projectUniqueName": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
         "projectName": "Intelitrader.Comum",
-        "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
-        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\obj\\",
+        "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
+        "packagesPath": "C:\\Users\\08657641313\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\08657641313\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

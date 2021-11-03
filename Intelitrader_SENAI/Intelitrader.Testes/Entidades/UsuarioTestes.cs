@@ -21,6 +21,9 @@ namespace Intelitrader.Testes.Entidades
                 "08866677713",
                 "11993785259",
                 "123456789",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
             );
 
@@ -37,6 +40,9 @@ namespace Intelitrader.Testes.Entidades
                 "08866677713",
                 "11993785259",
                 "123456789",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
             );
 
@@ -54,6 +60,9 @@ namespace Intelitrader.Testes.Entidades
                 "08866677713",
                 "119937852",
                 "123",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
 
             );
@@ -72,6 +81,9 @@ namespace Intelitrader.Testes.Entidades
                 "",
                 "119937852",
                 "123456789",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
 
             );
@@ -90,6 +102,9 @@ namespace Intelitrader.Testes.Entidades
                 "08866677713",
                 "",
                 "123456789",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario
 
             );

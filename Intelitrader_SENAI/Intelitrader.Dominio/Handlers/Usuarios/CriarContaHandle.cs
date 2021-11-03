@@ -56,6 +56,9 @@ namespace Intelitrader.Dominio.Handlers.Usuarios
                     comandos.Senha,
                     comandos.CPF,
                     comandos.Telefone,
+                    comandos.RG,
+                    comandos.Foto,
+                    comandos.Curriculo,
                     comandos.TipoUsuario
                 );
 

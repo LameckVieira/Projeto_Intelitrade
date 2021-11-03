@@ -19,13 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Intelitrader.Dominio\Intelitrader.Dominio.csproj" />
     <ProjectReference Include="..\Intelitrader.Infa.Data\Intelitrader.Infa.Data.csproj" />
     <ProjectReference Include="..\Intelitrader_SENAI\Intelitrader.Comum.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Imagens\" />
   </ItemGroup>
 
 </Project>

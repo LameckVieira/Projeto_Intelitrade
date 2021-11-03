@@ -30,9 +30,12 @@ namespace Intelitrader.Testes.Repositorios
             return new Usuario(
                 "Lameck", 
                 "lameck.v.barbosa@gmail.com", 
-                "08866677713", 
+                "08866677713",
                 "11993785259", 
-                "123456789", 
+                "123456789",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario);
         }
 
@@ -46,6 +49,9 @@ namespace Intelitrader.Testes.Repositorios
                     "08866677713",
                     "11993785259",
                     "123456789",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                     Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario),
                 new Usuario(
                     "Danilo",
@@ -53,6 +59,9 @@ namespace Intelitrader.Testes.Repositorios
                     "08866677715",
                     "11993785255",
                     "123456789",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
+                    "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png",
                     Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario)
             };
         }

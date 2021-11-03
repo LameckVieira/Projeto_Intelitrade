@@ -20,6 +20,9 @@ namespace Intelitrader.Testes.Comandos
             comandos.Email = "lameck.v.barbosa@gmail.com";
             comandos.Senha = "123456789";
             comandos.CPF = "08866677713";
+            comandos.Foto = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
+            comandos.RG = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
+            comandos.Curriculo = "https://www.horadecodar.com.br/wp-content/uploads/2020/04/imagem-ao-lado-de-texto-ex1.png";
             comandos.Telefone = "11993785259";
             comandos.TipoUsuario = Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario;
 

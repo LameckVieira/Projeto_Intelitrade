@@ -4761,19 +4761,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lameck\\.nuget\\packages\\": {}
+    "C:\\Users\\08657641313\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
       "projectName": "Intelitrader.Dominio",
-      "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
+      "packagesPath": "C:\\Users\\08657641313\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\08657641313\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4787,8 +4787,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
-              "projectPath": "C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj"
+            "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj": {
+              "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj"
             }
           }
         }
@@ -4837,16 +4837,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\Lameck\\Desktop\\Intelitrader_Senai\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
