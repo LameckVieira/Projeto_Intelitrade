@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Intelitrader_SENAI\Intelitrader.Comum.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Handlers\Altenticaco\" />
+  </ItemGroup>
+
 </Project>

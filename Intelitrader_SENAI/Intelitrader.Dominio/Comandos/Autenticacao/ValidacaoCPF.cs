@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Autenticacao
 {
-    class ValidacaoCPF
+    public class ValidacaoCPF
     {
 
 

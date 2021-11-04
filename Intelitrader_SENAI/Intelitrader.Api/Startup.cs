@@ -1,6 +1,7 @@
 using Intelitrader.Dominio.Handlers.Usuarios;
 using Intelitrader.Dominio.Repositorios;
 using Intelitrader.Infa.Data.Contexts;
+using Intelitrader.Infa.Data.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -85,9 +86,10 @@ namespace Intelitrader.Api
                                         .AllowAnyHeader());
             });
 
+
             // Injeções de dependências
             #region Usuarios
-            //services.AddTransient<IUsuarioRepositorio, UsuariosRepositorio>();
+            services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddTransient<CriarContaHandle, CriarContaHandle>();
 
             #endregion

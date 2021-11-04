@@ -14,7 +14,7 @@ namespace Intelitrader.Comum.Utils
             return BCrypt.Net.BCrypt.HashPassword(senha);
         }
 
-        public static bool validarHashes(string senha, string hash)
+        public static bool ValidarHashes(string senha, string hash)
         {
             return BCrypt.Net.BCrypt.Verify(senha, hash);
         }
