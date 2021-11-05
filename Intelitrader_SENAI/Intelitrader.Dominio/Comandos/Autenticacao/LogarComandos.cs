@@ -9,8 +9,13 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Comandos.Autenticacao
 {
-    class LogarComandos : Notifiable<Notification>, IComandos
+    public class LogarComandos : Notifiable<Notification>, IComandos
     {
+        public LogarComandos()
+        {
+
+        }
+
         public LogarComandos(string email, string senha)
         {
             Email = email;

@@ -1,3 +1,4 @@
+using Intelitrader.Dominio.Handlers.Autenticacao;
 using Intelitrader.Dominio.Handlers.Usuarios;
 using Intelitrader.Dominio.Repositorios;
 using Intelitrader.Infa.Data.Contexts;
@@ -43,7 +44,7 @@ namespace Intelitrader.Api
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "IntelitraderApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Intelitrader.Api", Version = "v1" });
             });
 
             //JWT
@@ -91,6 +92,7 @@ namespace Intelitrader.Api
             #region Usuarios
             services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddTransient<CriarContaHandle, CriarContaHandle>();
+            services.AddTransient<LogarHandle, LogarHandle>();
 
             #endregion
 
@@ -104,7 +106,7 @@ namespace Intelitrader.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "IntelitraderApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Intelitrader.Api v1"));
             }
 
             app.UseHttpsRedirection();

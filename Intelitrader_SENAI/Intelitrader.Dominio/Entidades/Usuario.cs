@@ -10,9 +10,15 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Entidades
 {
+
     public class Usuario : Base
     {
-        public Usuario(string nome, string email, string telefone, string cpf, string senha, string foto, string rg, string curriculo, EnTipoUsuario tipoUsuario)
+        public Usuario()
+        {
+
+        }
+
+    public Usuario(string nome, string email, string telefone, string cpf, string senha, string foto, string rg, string curriculo, EnTipoUsuario tipoUsuario)
         {
             AddNotifications(
                 new Contract<Notification>()
@@ -20,9 +26,9 @@ namespace Intelitrader.Dominio.Entidades
                     .IsNotNull(telefone, "Telefone", "Telefone não poder ser vazio")
                     .IsNotNull(cpf, "CPF", "CPF não poder ser vazio")
                     .IsNotEmpty(nome, "Nome", "Nome não poder ser vazio")
-                    .IsNotEmpty(foto, "CPF", "CPF não poder ser vazio")
+                    .IsNotEmpty(foto, "Foto", "Foto não poder ser vazio")
                     .IsNotEmpty(rg, "Nome", "Nome não poder ser vazio")
-                    .IsNotEmpty(curriculo, "CPF", "CPF não poder ser vazio")
+                    .IsNotEmpty(curriculo, "Curriculo", "Curriculo não poder ser vazio")
                     .IsEmail(email, "Email", "O formato do email está incorreto")
                     .IsGreaterOrEqualsThan(senha, 7, "Senha", "A senha deve ter pelo menos 8 caracteres")
             );

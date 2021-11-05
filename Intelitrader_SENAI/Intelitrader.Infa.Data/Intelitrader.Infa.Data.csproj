@@ -22,4 +22,8 @@
     <ProjectReference Include="..\Intelitrader.Dominio\Intelitrader.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migration\" />
+  </ItemGroup>
+
 </Project>

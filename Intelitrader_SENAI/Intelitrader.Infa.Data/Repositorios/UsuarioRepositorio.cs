@@ -11,7 +11,7 @@ namespace Intelitrader.Infa.Data.Repositorios
 {
     public class UsuarioRepositorio : IUsuarioRepositorio
     {
-
+        // injeção de dependência 
         private readonly IntelitraderContext _context;
 
         public UsuarioRepositorio(IntelitraderContext context)

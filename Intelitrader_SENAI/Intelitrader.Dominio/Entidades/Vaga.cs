@@ -37,8 +37,5 @@ namespace Intelitrader.Dominio.Entidades
         public string Descricao { get; private set; }
         public EnStatusVaga StatusVaga { get; private set; }
 
-        // Composições
-
-        // public IReadOnlyCollection<TipoVaga> TipoVaga { get { return _tipoVaga; } }
     }
 }
