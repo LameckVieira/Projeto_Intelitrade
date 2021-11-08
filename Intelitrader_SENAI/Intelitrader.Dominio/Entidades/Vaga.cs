@@ -12,6 +12,12 @@ namespace Intelitrader.Dominio.Entidades
 {
     public class Vaga : Base
     {
+        public Vaga()
+        {
+
+        }
+
+
         public Vaga(string nome, int quantidade, string descricao, EnStatusVaga statusVaga)
         {
             AddNotifications(

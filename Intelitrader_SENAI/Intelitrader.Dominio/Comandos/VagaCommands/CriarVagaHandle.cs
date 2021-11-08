@@ -1,6 +1,7 @@
 ﻿using Flunt.Notifications;
 using Intelitrader.Comum.Comandos;
 using Intelitrader.Comum.Handlers;
+using Intelitrader.Dominio.Comandos.Vaga;
 using Intelitrader.Dominio.Repositorios;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Intelitrader.Dominio.Comandos.Vaga
+namespace Intelitrader.Dominio.Comandos.VagaCommands
 {
     public class CriarVagaHandle : Notifiable<Notification>, IHandler<CriarVagaComandos>
     {
@@ -40,16 +41,17 @@ namespace Intelitrader.Dominio.Comandos.Vaga
 
 
             // Criar uma instância da vaga
+
             Vaga vaga = new Vaga
                 (
-                    comandos.Nome, 
-                    comandos.Quantidade, 
-                    comandos.StatusVaga, 
+                    comandos.Nome,
+                    comandos.Quantidade,
+                    comandos.StatusVaga,
                     comandos.Descricao
                 );
             if (vaga != null)
                 return new ResultadosComandosGenericos(false, "Dados da vaga inválidos", vaga.Notication);
-            
+
             // Adicionar vaga no banco 
             _vagaRepositorio.Cadastrar(vaga);
 
