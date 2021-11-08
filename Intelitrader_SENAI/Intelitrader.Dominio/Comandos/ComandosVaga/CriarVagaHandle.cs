@@ -2,6 +2,7 @@
 using Intelitrader.Comum.Comandos;
 using Intelitrader.Comum.Handlers;
 using Intelitrader.Dominio.Comandos.Vaga;
+using Intelitrader.Dominio.Entidades;
 using Intelitrader.Dominio.Repositorios;
 using System;
 using System.Collections.Generic;
@@ -42,15 +43,15 @@ namespace Intelitrader.Dominio.Comandos.VagaCommands
 
             // Criar uma instância da vaga
 
-            Vaga vaga = new Vaga
+            Vagas vaga = new Vagas
                 (
                     comandos.Nome,
                     comandos.Quantidade,
-                    comandos.StatusVaga,
-                    comandos.Descricao
+                    comandos.Descricao,
+                    comandos.StatusVaga
                 );
             if (vaga != null)
-                return new ResultadosComandosGenericos(false, "Dados da vaga inválidos", vaga.Notication);
+                return new ResultadosComandosGenericos(false, "Dados da vaga inválidos", vaga.Notifications);
 
             // Adicionar vaga no banco 
             _vagaRepositorio.Cadastrar(vaga);

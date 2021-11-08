@@ -11,11 +11,11 @@ namespace Intelitrader.Dominio.Repositorios
     public interface IVagaRepositorio
     {
 
-        void Cadastrar(Vaga vaga);
-        void Alterar(Vaga vaga);
-        IEnumerable<Vaga> Listar(EnStatusVaga? ativo = null);
-        Vaga BuscarVagaPorNome(string nome);
-        Vaga BuscarPorID(Guid id);
+        void Cadastrar(Vagas vaga);
+        void Alterar(Vagas vaga);
+        IEnumerable<Vagas> Listar(EnStatusVaga? ativo = null);
+        Vagas BuscarVagaPorNome(string nome);
+        Vagas BuscarPorID(Guid id);
 
 
 

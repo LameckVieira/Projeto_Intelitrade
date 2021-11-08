@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Entidades
 {
-    public class Vaga : Base
+    public class Vagas : Base
     {
-        public Vaga()
+        public Vagas()
         {
 
         }
 
 
-        public Vaga(string nome, int quantidade, string descricao, EnStatusVaga statusVaga)
+        public Vagas(string nome, int quantidade, string descricao, EnStatusVaga statusVaga)
         {
             AddNotifications(
            new Contract<Notification>()

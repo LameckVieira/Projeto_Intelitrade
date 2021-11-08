@@ -21,29 +21,29 @@ namespace Intelitrader.Infa.Data.Repositorios
             _context = context;
         }
 
-        public void Alterar(Vaga vaga)
+        public void Alterar(Vagas vaga)
         {
             _context.Entry(vaga).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             _context.SaveChanges();
         }
 
-        public Vaga BuscarPorID(Guid id)
+        public Vagas BuscarPorID(Guid id)
         {
             return _context.Vaga.FirstOrDefault(x => x.Id == id);
         }
 
-        public Vaga BuscarVagaPorNome(string nome)
+        public Vagas BuscarVagaPorNome(string nome)
         {
             return _context.Vaga.FirstOrDefault(x => x.Nome.ToLower() == nome.ToLower());
         }
 
-        public void Cadastrar(Vaga vaga)
+        public void Cadastrar(Vagas vaga)
         {
             _context.Vaga.Add(vaga);
             _context.SaveChanges();
         }
 
-        public IEnumerable<Vaga> Listar(EnStatusVaga? ativo = null)
+        public IEnumerable<Vagas> Listar(EnStatusVaga? ativo = null)
         {
             if (ativo == null)
             {

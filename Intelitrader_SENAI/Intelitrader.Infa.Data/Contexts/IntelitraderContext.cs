@@ -20,7 +20,7 @@ namespace Intelitrader.Infa.Data.Contexts
 
         // Declarar quais são as tabelas que nós vamos criar, com dbset
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Vaga> Vaga { get; set; }
+        public DbSet<Vagas> Vaga { get; set; }
         public DbSet<TipoVaga> TipoVaga { get; set; }
 
         // Modelamos como que as tabelas devem ficar

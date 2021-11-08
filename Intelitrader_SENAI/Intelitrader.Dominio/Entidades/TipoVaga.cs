@@ -39,7 +39,7 @@ namespace Intelitrader.Dominio.Entidades
 
         public Guid IdVaga { get; set; }
 
-        public Vaga Vaga { get; set; }
+        public Vagas Vaga { get; set; }
     }
 
 }
