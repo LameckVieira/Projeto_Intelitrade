@@ -1,4 +1,6 @@
+using Intelitrader.Dominio.Comandos.VagaCommands;
 using Intelitrader.Dominio.Handlers.Autenticacao;
+using Intelitrader.Dominio.Handlers.Autenticacao.VagaHandler;
 using Intelitrader.Dominio.Handlers.Usuarios;
 using Intelitrader.Dominio.Repositorios;
 using Intelitrader.Infa.Data.Contexts;
@@ -89,11 +91,16 @@ namespace Intelitrader.Api
 
 
             // Injeções de dependências
-            #region Usuarios
+            #region Injeção de dependência dos Usuarios
             services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddTransient<CriarContaHandle, CriarContaHandle>();
             services.AddTransient<LogarHandle, LogarHandle>();
+            #endregion
 
+            #region Injeção de dependência das Vagas
+            services.AddTransient<IVagaRepositorio, VagaRepositorio>();
+            services.AddTransient<CriarVagaHandle, CriarVagaHandle>();
+            services.AddTransient<ListarVagaHandle, ListarVagaHandle>();
             #endregion
 
 

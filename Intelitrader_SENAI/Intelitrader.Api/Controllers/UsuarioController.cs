@@ -17,11 +17,11 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Api.Controllers
 {
-    [Route("vi/account")]
+    [Route("vi/conta")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        [Route("signup")]
+        [Route("criarconta")]
         [HttpPost]
         public ResultadosComandosGenericos Signup(CriarContaComandos comandos, [FromServices] CriarContaHandle handle)
         {
@@ -30,7 +30,7 @@ namespace Intelitrader.Api.Controllers
         }
 
 
-        [Route("signin")]
+        [Route("entrar")]
         [HttpPost]
         public ResultadosComandosGenericos Signin(LogarComandos comandos, [FromServices] LogarHandle handle)
         {

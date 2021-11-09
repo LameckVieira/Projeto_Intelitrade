@@ -10,7 +10,7 @@ namespace Intelitrader.Comum.Handlers
 
     // <T> -> Tipo de objeto generico 
     // Where  -> Garante que esse objeto generico esteja erdando da interface IComandos
-    public interface IHandler<T> where T : IComandos
+    public interface IHandlerComandos<T> where T : IComandos
     {
         IResultadosComandos Handler(T comandos);
     }

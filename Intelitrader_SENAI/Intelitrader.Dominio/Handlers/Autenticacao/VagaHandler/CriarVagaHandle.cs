@@ -12,8 +12,10 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Comandos.VagaCommands
 {
-    public class CriarVagaHandle : Notifiable<Notification>, IHandler<CriarVagaComandos>
+    public class CriarVagaHandle : Notifiable<Notification>, IHandlerComandos<CriarVagaComandos>
     {
+        // injeção de dependência
+
         private readonly IVagaRepositorio _vagaRepositorio;
 
         public CriarVagaHandle(IVagaRepositorio vagaRepositorio)
@@ -58,7 +60,7 @@ namespace Intelitrader.Dominio.Comandos.VagaCommands
 
 
             // Retornar sucesso
-            return new ResultadosComandosGenericos(true, "Vaga cadastrada com sucesso", null);
+            return new ResultadosComandosGenericos(true, "Vaga cadastrada com sucesso", vaga);
         }
     }
 }

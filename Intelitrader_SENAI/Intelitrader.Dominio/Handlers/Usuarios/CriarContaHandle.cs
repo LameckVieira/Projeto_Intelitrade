@@ -13,8 +13,10 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Handlers.Usuarios
 {
-    public class CriarContaHandle : Notifiable<Notification>, IHandler<CriarContaComandos>
+    public class CriarContaHandle : Notifiable<Notification>, IHandlerComandos<CriarContaComandos>
     {
+
+        // Injeção de dependência
 
         private readonly IUsuarioRepositorio _usuarioRepositorio;
 

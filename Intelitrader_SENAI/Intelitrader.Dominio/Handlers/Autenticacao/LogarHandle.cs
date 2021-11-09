@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Dominio.Handlers.Autenticacao
 {
-    public class LogarHandle : Notifiable<Notification>, IHandler<LogarComandos>
+    public class LogarHandle : Notifiable<Notification>, IHandlerComandos<LogarComandos>
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
 

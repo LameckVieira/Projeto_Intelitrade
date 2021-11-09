@@ -43,5 +43,8 @@ namespace Intelitrader.Dominio.Entidades
         public string Descricao { get; private set; }
         public EnStatusVaga StatusVaga { get; private set; }
 
+        //composções
+        public IReadOnlyCollection<Descricao> Descricaos { get { return _descricaos.ToArray(); } }
+
     }
 }
