@@ -1,0 +1,62 @@
+.tela-login{
+    overflow-y: hidden;
+    background-image: url(../../assets/img/ilustracao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo-painel{
+    color: #FE7B1D;
+    margin-top: 15%;
+    margin-bottom: 30%;
+}
+
+.alinhar-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.input-painel{
+    width: 85%;
+    height: 35px;
+    padding: .5% 1% .5% 3% ;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.input-painel::placeholder{
+    color: #FE7B1D;
+}
+
+.btn-login{
+    width: 88%;
+    height: 38px;
+    padding: .5% 1% .5% 3%;
+    background-color: #FE7B1D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+.btn-login:hover{
+    background-color: #DA5B00;
+}
+
+.realizar-cadastro{
+    margin-left: -12%;
+}
+.realizar-cadastro p{
+    color: white;
+}
+
+p a{
+    
+    color: #FE7B1D;
+}
