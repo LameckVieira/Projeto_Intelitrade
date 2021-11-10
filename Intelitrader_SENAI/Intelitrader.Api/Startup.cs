@@ -45,7 +45,7 @@ namespace Intelitrader.Api
             services.AddDbContext<IntelitraderContext>(z => z.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddSwaggerGen(c =>
-            {
+            {   
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Intelitrader.Api", Version = "v1" });
             });
 
@@ -125,7 +125,7 @@ namespace Intelitrader.Api
             {
                 FileProvider = new PhysicalFileProvider(
                         Path.Combine(Directory.GetCurrentDirectory(), "Resources")),
-                RequestPath = "/Resources"
+                RequestPath = "/Resources/Imagens"
             });
 
 

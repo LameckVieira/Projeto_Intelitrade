@@ -43,8 +43,30 @@ namespace Intelitrader.Dominio.Entidades
         public string Descricao { get; private set; }
         public EnStatusVaga StatusVaga { get; private set; }
 
-        //composções
-        public IReadOnlyCollection<Descricao> Descricaos { get { return _descricaos.ToArray(); } }
+
+        // Composições
+
+        public void AtualizaUsuario(string nome, string descricao, int quantidade, EnStatusVaga statusVaga)
+        {
+            AddNotifications(
+                new Contract<Notification>()
+                    .Requires()
+                    .IsNotNull(descricao, "Descrição", "Descrição não poder ser vazio")
+                    .IsNotEmpty(nome, "Nome", "Nome não poder ser vazio")
+                    .IsNotNull(quantidade, "Quantidade", "Quantidade não poder ser vazio")
+                    .IsNotNull(statusVaga, "Status da vaga", "O formato do status da vaga está incorreto")
+            );
+
+            if (IsValid)
+            {
+                Nome = nome;
+                Quantidade = quantidade;
+                Descricao = descricao;
+                StatusVaga = statusVaga;
+            }
+
+        }
+
 
     }
 }

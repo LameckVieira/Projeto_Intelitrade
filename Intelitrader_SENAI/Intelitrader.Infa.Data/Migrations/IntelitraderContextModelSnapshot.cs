@@ -101,7 +101,7 @@ namespace Intelitrader.Infa.Data.Migrations
                     b.ToTable("Usuario");
                 });
 
-            modelBuilder.Entity("Intelitrader.Dominio.Entidades.Vaga", b =>
+            modelBuilder.Entity("Intelitrader.Dominio.Entidades.Vagas", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -129,7 +129,7 @@ namespace Intelitrader.Infa.Data.Migrations
 
             modelBuilder.Entity("Intelitrader.Dominio.Entidades.TipoVaga", b =>
                 {
-                    b.HasOne("Intelitrader.Dominio.Entidades.Vaga", "Vaga")
+                    b.HasOne("Intelitrader.Dominio.Entidades.Vagas", "Vaga")
                         .WithMany()
                         .HasForeignKey("VagaId");
 

@@ -41,6 +41,11 @@ namespace Intelitrader.Dominio.Handlers.Usuarios
                 );       
             }
 
+            //var FotoPerfil= "Foto.png";
+            //var FotoRg = "Foto.png";
+            //var fotoCurriculo = "Foto.png";
+
+
             // Validar se o email existe
             var usuarioExiste = _usuarioRepositorio.BuscarPorEmail(comandos.Email);
 
@@ -55,9 +60,9 @@ namespace Intelitrader.Dominio.Handlers.Usuarios
                 (
                     comandos.Nome,
                     comandos.Email,
-                    comandos.Senha,
-                    comandos.CPF,
                     comandos.Telefone,
+                    comandos.CPF,
+                    comandos.Senha,
                     comandos.RG,
                     comandos.Foto,
                     comandos.Curriculo,

@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Api.Controllers
 {
-    [Route("v1/[vagas]")]
+    [Route("v1/vagas")]
     [ApiController]
     public class VagasController : ControllerBase
     {
@@ -29,7 +29,7 @@ namespace Intelitrader.Api.Controllers
             return (ResultadosComandosGenericos)handle.Handler(comandos);
         }
 
-        [HttpPost]
+        [HttpGet]
         [Authorize]
         public GenericQueryResult GetAll([FromServices] ListarVagaHandle handle)
         {
