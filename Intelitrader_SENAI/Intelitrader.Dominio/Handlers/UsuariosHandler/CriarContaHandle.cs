@@ -20,6 +20,8 @@ namespace Intelitrader.Dominio.Handlers.Usuarios
 
         private readonly IUsuarioRepositorio _usuarioRepositorio;
 
+        
+
         public CriarContaHandle(IUsuarioRepositorio usuarioRepositorio)
         {
             _usuarioRepositorio = usuarioRepositorio;
@@ -41,9 +43,9 @@ namespace Intelitrader.Dominio.Handlers.Usuarios
                 );       
             }
 
-            //var FotoPerfil= "Foto.png";
-            //var FotoRg = "Foto.png";
-            //var fotoCurriculo = "Foto.png";
+            //var Foto = folderName;
+            //var FotoRg = folderName;
+            //var fotoCurriculo = folderName;
 
 
             // Validar se o email existe

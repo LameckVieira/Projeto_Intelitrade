@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Intelitrader.Api.Controllers
 {
     [ApiController]
-    [Route("envio")]
+    [Route("v1/envio")]
 
     // Para fazer o Upload da imagem
     public class UploadController : ControllerBase

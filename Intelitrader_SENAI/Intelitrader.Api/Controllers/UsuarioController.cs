@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace Intelitrader.Api.Controllers
 {
-    [Route("vi/conta")]
+    [Route("v1/conta")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -66,8 +66,8 @@ namespace Intelitrader.Api.Controllers
             // Configuramos nosso Token e seu tempo de vida
             var token = new JwtSecurityToken
                 (
-                    "Intelitrder",
-                    "Intelitrder",
+                    "Intelitreder",
+                    "Intelitreder",
                     claims,
                     expires: DateTime.Now.AddMinutes(120),
                     signingCredentials: credentials

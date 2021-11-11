@@ -52,7 +52,7 @@ namespace Intelitrader.Dominio.Comandos.VagaCommands
                     comandos.Descricao,
                     comandos.StatusVaga
                 );
-            if (vaga != null)
+            if (vaga == null)
                 return new ResultadosComandosGenericos(false, "Dados da vaga inválidos", vaga.Notifications);
 
             // Adicionar vaga no banco 

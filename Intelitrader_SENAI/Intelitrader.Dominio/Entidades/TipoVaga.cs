@@ -13,6 +13,12 @@ namespace Intelitrader.Dominio.Entidades
 {
     public class TipoVaga : Base
     {
+
+        public TipoVaga()
+        {
+
+        }
+
         public TipoVaga(string nomeTipoVaga, string descricao, EnTipoCargo cargo)
         {
             AddNotifications(

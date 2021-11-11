@@ -20,7 +20,7 @@ namespace Intelitrader.Api.Controllers
     [ApiController]
     public class VagasController : ControllerBase
     {
-
+        [Route("v1/criarvaga")]
         [HttpPost]
         [Authorize(Roles = "Funcionario")]
 
@@ -29,8 +29,8 @@ namespace Intelitrader.Api.Controllers
             return (ResultadosComandosGenericos)handle.Handler(comandos);
         }
 
+        [Route("v1/listarvaga")]
         [HttpGet]
-        [Authorize]
         public GenericQueryResult GetAll([FromServices] ListarVagaHandle handle)
         {
             // Ciramos uma instancia nova para a query

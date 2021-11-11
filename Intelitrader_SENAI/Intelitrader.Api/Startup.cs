@@ -69,10 +69,10 @@ namespace Intelitrader.Api
                     ValidateIssuerSigningKey = true,
 
                     //nome do issuer, de onde está vindo
-                    ValidIssuer = "Intelitrader",
+                    ValidIssuer = "Intelitreder",
 
                     //nome do audience, de onde está indo
-                    ValidAudience = "Intelitrader",
+                    ValidAudience = "Intelitreder",
 
                     IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("ChaveSecretaIntelitraderSenai132"))
 
