@@ -7574,19 +7574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\08657641313\\.nuget\\packages\\": {}
+    "C:\\Users\\fic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
       "projectName": "Intelitrader.Infa.Data",
-      "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
-      "packagesPath": "C:\\Users\\08657641313\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\obj\\",
+      "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
+      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\08657641313\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7600,8 +7604,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj": {
-              "projectPath": "C:\\Users\\08657641313\\Desktop\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj"
+            "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj": {
+              "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj"
             }
           }
         }
@@ -7656,7 +7660,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
