@@ -18,7 +18,7 @@ export default function Cadastro() {
                         <input className="input-painel" placeholder="Senha" />
                         <button className="btn-cadastro">Cadastre-se!</button>
                     </form>
-                </div>
+                </div>       
                 <div className="realizar-cadastro">
                     <p>Já possui conta?<a> Login</a></p>
                 </div>
