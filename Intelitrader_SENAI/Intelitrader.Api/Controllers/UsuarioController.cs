@@ -4,6 +4,8 @@ using Intelitrader.Dominio.Comandos.Usuario;
 using Intelitrader.Dominio.Entidades;
 using Intelitrader.Dominio.Handlers.Autenticacao;
 using Intelitrader.Dominio.Handlers.Usuarios;
+using Intelitrader.Dominio.Handlers.UsuariosHandler;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -74,6 +76,20 @@ namespace Intelitrader.Api.Controllers
                 );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        [Route("")]
+        [Authorize]
+        [HttpPut]
+        public ResultadosComandosGenericos UpdateAccount(
+           [FromBody] AtualizarContaComandos command,
+           [FromServices] AtualizarContaHandle handler
+       )
+        {
+            var IdConta = HttpContext.User.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Jti);
+            command.IdConta = new Guid(IdConta.Value);
+
+            return (ResultadosComandosGenericos)handler.Handler(command);
         }
 
     }

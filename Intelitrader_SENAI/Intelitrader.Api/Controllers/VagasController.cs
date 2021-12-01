@@ -44,7 +44,15 @@ namespace Intelitrader.Api.Controllers
             }
             return (GenericQueryResult)handle.Handler(query);
 
-
         }
+
+        //public ResultadosComandosGenericos Delete(BuscarPorID buscarPorID)
+        //{
+        //    try
+        //    {
+        //        _vagaRepository.Deletar(buscarPorID);
+        //        return ();
+        //    }
+        //}
     }
 }

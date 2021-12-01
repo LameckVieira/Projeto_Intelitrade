@@ -46,7 +46,7 @@ namespace Intelitrader.Dominio.Entidades
 
         // Composições
 
-        public void AtualizaUsuario(string nome, string descricao, int quantidade, EnStatusVaga statusVaga)
+        public void AtualizaVaga(string nome, string descricao, int quantidade, EnStatusVaga statusVaga)
         {
             AddNotifications(
                 new Contract<Notification>()
