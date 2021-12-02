@@ -1,4 +1,5 @@
 ﻿using Intelitrader.Comum.Comandos;
+using Intelitrader.Comum.Queries;
 using Intelitrader.Dominio.Comandos.Autenticacao;
 using Intelitrader.Dominio.Comandos.Usuario;
 using Intelitrader.Dominio.Entidades;
@@ -78,7 +79,7 @@ namespace Intelitrader.Api.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        [Route("")]
+        [Route("AttConta")]
         [Authorize]
         [HttpPut]
         public ResultadosComandosGenericos UpdateAccount(
@@ -91,6 +92,5 @@ namespace Intelitrader.Api.Controllers
 
             return (ResultadosComandosGenericos)handler.Handler(command);
         }
-
     }
 }

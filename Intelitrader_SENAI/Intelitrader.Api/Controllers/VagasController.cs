@@ -1,6 +1,7 @@
 ﻿using Intelitrader.Comum.Comandos;
 using Intelitrader.Comum.Enum;
 using Intelitrader.Comum.Queries;
+using Intelitrader.Dominio.Comandos.ComandosVaga;
 using Intelitrader.Dominio.Comandos.Vaga;
 using Intelitrader.Dominio.Comandos.VagaCommands;
 using Intelitrader.Dominio.Handlers.Autenticacao.VagaHandler;
@@ -46,13 +47,21 @@ namespace Intelitrader.Api.Controllers
 
         }
 
-        //public ResultadosComandosGenericos Delete(BuscarPorID buscarPorID)
-        //{
-        //    try
-        //    {
-        //        _vagaRepository.Deletar(buscarPorID);
-        //        return ();
-        //    }
-        //}
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Funcionario")]
+        public ResultadosComandosGenericos Update(Guid id,
+            [FromBody] AtualizarVagaComandos command,
+            [FromServices] AtualizarVagaHandle handler
+        )
+        {
+            if (id == Guid.Empty)
+                return new ResultadosComandosGenericos(false, "Informe o Id do da vaga", "");
+
+            command.IdVaga = id;
+
+            return (ResultadosComandosGenericos)handler.Handler(command);
+        }
+
+
     }
 }
