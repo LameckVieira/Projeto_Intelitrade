@@ -84,7 +84,7 @@ namespace Intelitrader.Api.Controllers
         }
 
         [Route("AttConta")]
-        [Authorize]
+        [Authorize(Roles = "Funcionario")]
         [HttpPut]
         public ResultadosComandosGenericos UpdateAccount(
            [FromBody] AtualizarContaComandos command,
@@ -97,7 +97,7 @@ namespace Intelitrader.Api.Controllers
             return (ResultadosComandosGenericos)handler.Handler(command);
         }
 
-        [Authorize]
+        [Authorize(Roles = "Funcionario")]
         [HttpDelete("{id}")]
         public ResultadosComandosGenericos Delete(Guid id)
         {

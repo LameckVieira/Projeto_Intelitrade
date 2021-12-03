@@ -69,7 +69,7 @@ namespace Intelitrader.Api.Controllers
         }
 
 
-        [Authorize]
+        [Authorize(Roles = "Funcionario")]
         [HttpDelete("{id}")]
         public ResultadosComandosGenericos Delete(Guid id)
         {
