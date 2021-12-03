@@ -41,6 +41,15 @@ namespace Intelitrader.Infa.Data.Repositorios
             return _context.Usuarios.FirstOrDefault(x => x.Id == id);
         }
 
+        //public Usuario Delete(Guid id)
+        //{
+        //    // Remove o tipo de usuário que foi buscado
+        //    _context.Usuarios.Remove(BuscarPorId(id));
+
+        //    // Salva as alterações
+        //    _context.SaveChanges();
+        //}
+
         public ICollection<Usuario> Listar(bool? ativo = null)
         {
             return _context.Usuarios.ToList();

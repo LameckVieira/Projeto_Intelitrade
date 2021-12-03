@@ -39,6 +39,11 @@ namespace Intelitrader.Testes.Repositorios
                 Intelitrader.Comum.Enum.EnTipoUsuario.Funcionario);
         }
 
+        public Usuario Delete(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
         public ICollection<Usuario> Listar(bool? ativo = null)
         {
             return new List<Usuario>()

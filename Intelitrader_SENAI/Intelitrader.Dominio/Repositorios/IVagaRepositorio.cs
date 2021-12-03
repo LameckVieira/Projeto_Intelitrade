@@ -16,6 +16,7 @@ namespace Intelitrader.Dominio.Repositorios
         IEnumerable<Vagas> Listar(EnStatusVaga? ativo = null);
         Vagas BuscarVagaPorNome(string nome);
         Vagas BuscarPorID(Guid id);
+        Vagas Delete(Guid id);
 
 
 

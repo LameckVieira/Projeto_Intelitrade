@@ -6,6 +6,7 @@ using Intelitrader.Dominio.Entidades;
 using Intelitrader.Dominio.Handlers.Autenticacao;
 using Intelitrader.Dominio.Handlers.Usuarios;
 using Intelitrader.Dominio.Handlers.UsuariosHandler;
+using Intelitrader.Dominio.Repositorios;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,9 @@ namespace Intelitrader.Api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+
+        private IUsuarioRepositorio _usuarioRepositorio { get; set; }
+
         [Route("criarconta")]
         [HttpPost]
         public ResultadosComandosGenericos Signup(CriarContaComandos comandos, [FromServices] CriarContaHandle handle)
@@ -91,6 +95,22 @@ namespace Intelitrader.Api.Controllers
             command.IdConta = new Guid(IdConta.Value);
 
             return (ResultadosComandosGenericos)handler.Handler(command);
+        }
+
+        [Authorize]
+        [HttpDelete("{id}")]
+        public ResultadosComandosGenericos Delete(Guid id)
+        {
+            try
+            {
+                _usuarioRepositorio.BuscarPorId(id);
+
+                return new ResultadosComandosGenericos(true, "Usuario excluída com sucesso", id);
+            }
+            catch (Exception erro)
+            {
+                return new ResultadosComandosGenericos(false, "Insira um Id válido", erro);
+            }
         }
     }
 }

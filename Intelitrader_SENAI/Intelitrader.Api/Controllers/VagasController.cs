@@ -6,6 +6,8 @@ using Intelitrader.Dominio.Comandos.Vaga;
 using Intelitrader.Dominio.Comandos.VagaCommands;
 using Intelitrader.Dominio.Handlers.Autenticacao.VagaHandler;
 using Intelitrader.Dominio.Queries.QueriesVaga;
+using Intelitrader.Dominio.Repositorios;
+using Intelitrader.Infa.Data.Repositorios;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +23,10 @@ namespace Intelitrader.Api.Controllers
     [ApiController]
     public class VagasController : ControllerBase
     {
+
+        private IVagaRepositorio _vagaRepositorio { get; set; }
+
+
         [Route("v1/criarvaga")]
         [HttpPost]
         [Authorize(Roles = "Funcionario")]
@@ -60,6 +66,23 @@ namespace Intelitrader.Api.Controllers
             command.IdVaga = id;
 
             return (ResultadosComandosGenericos)handler.Handler(command);
+        }
+
+
+        [Authorize]
+        [HttpDelete("{id}")]
+        public ResultadosComandosGenericos Delete(Guid id)
+        {
+            try
+            {
+                _vagaRepositorio.BuscarPorID(id);
+
+                return new ResultadosComandosGenericos(true, "Vaga excluída com sucesso", id);
+            }
+            catch (Exception erro)
+            {
+                return new ResultadosComandosGenericos(false, "Insira um Id válido", erro);
+            }
         }
 
 
