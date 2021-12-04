@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    useParams,
+    Link
+  } from "react-router-dom";
 import './cadastro.css';
 import '../../index.css'
 
@@ -15,12 +22,12 @@ export default function Cadastro() {
                         <input className="input-painel" placeholder="CPF" />
                         <input className="input-painel" placeholder="Telefone" />
                         <input className="input-painel" placeholder="Email" />
-                        <input className="input-painel" placeholder="Senha" />
+                        <input className="input-painel" type="password" placeholder="Senha" />
                         <button className="btn-cadastro">Cadastre-se!</button>
                     </form>
-                </div>       
+                </div>        
                 <div className="realizar-cadastro">
-                    <p>Já possui conta?<a> Login</a></p>
+                    <p>Já possui conta?<Link to="/"> Login</Link></p>
                 </div>
             </Painel>
         </div>

@@ -8,8 +8,8 @@
 
 .titulo-painel{
     color: #FE7B1D;
-    margin-top: 15%;
-    margin-bottom: 30%;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .alinhar-inputs{
@@ -40,8 +40,8 @@
     color: white;
     border-radius: 5px;
     border: none;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 15px;
 }
 
