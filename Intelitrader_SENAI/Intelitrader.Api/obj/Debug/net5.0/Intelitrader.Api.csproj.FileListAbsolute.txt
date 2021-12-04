@@ -243,4 +243,3 @@ C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader.Api\o
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader.Api\obj\Debug\net5.0\ref\Intelitrader.Api.dll
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader.Api\obj\Debug\net5.0\Intelitrader.Api.pdb
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader.Api\obj\Debug\net5.0\Intelitrader.Api.genruntimeconfig.cache
-C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader.Api\obj\Debug\net5.0\Intelitrader.Api.csproj.CopyComplete

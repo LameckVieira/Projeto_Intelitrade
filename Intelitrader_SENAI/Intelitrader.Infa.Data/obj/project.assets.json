@@ -7574,7 +7574,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fic\\.nuget\\packages\\": {},
+    "C:\\Users\\devops\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -7583,14 +7583,14 @@
       "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
       "projectName": "Intelitrader.Infa.Data",
       "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\Intelitrader.Infa.Data.csproj",
-      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\devops\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Infa.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\devops\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

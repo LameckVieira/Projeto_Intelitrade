@@ -43,7 +43,6 @@ C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\bin\Debug\net5.0\Intelitrader.Comum.dll
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\bin\Debug\net5.0\ref\Intelitrader.Comum.dll
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\bin\Debug\net5.0\Intelitrader.Comum.pdb
-C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\obj\Debug\net5.0\Intelitrader.Comum.csproj.AssemblyReference.cache
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\obj\Debug\net5.0\Intelitrader.Comum.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\obj\Debug\net5.0\Intelitrader.Comum.AssemblyInfoInputs.cache
 C:\Users\fic\Documents\Projeto_Intelitrade\Intelitrader_SENAI\Intelitrader_SENAI\obj\Debug\net5.0\Intelitrader.Comum.AssemblyInfo.cs

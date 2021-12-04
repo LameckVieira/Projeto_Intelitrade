@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
         "projectName": "Intelitrader.Dominio",
         "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\Intelitrader.Dominio.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\devops\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\devops\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,14 +91,14 @@
         "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
         "projectName": "Intelitrader.Testes",
         "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\Intelitrader.Testes.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\devops\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\devops\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,14 +178,14 @@
         "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
         "projectName": "Intelitrader.Comum",
         "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\Intelitrader.Comum.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\devops\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Intelitrade\\Intelitrader_SENAI\\Intelitrader_SENAI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\devops\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
