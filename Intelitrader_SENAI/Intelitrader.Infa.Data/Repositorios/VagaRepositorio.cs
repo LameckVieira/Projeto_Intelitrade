@@ -43,6 +43,11 @@ namespace Intelitrader.Infa.Data.Repositorios
             _context.SaveChanges();
         }
 
+        public Vagas Delete(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Vagas> Listar(EnStatusVaga? ativo = null)
         {
             if (ativo == null)

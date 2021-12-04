@@ -14,5 +14,6 @@ namespace Intelitrader.Dominio.Repositorios
         Usuario BuscarPorEmail(string email);
         Usuario BuscarPorId(Guid id);
         ICollection<Usuario> Listar(bool? ativo = null);
+        Usuario Delete(Guid id);
     }
 }

@@ -1,9 +1,13 @@
 ﻿using Intelitrader.Comum.Comandos;
+using Intelitrader.Comum.Queries;
 using Intelitrader.Dominio.Comandos.Autenticacao;
 using Intelitrader.Dominio.Comandos.Usuario;
 using Intelitrader.Dominio.Entidades;
 using Intelitrader.Dominio.Handlers.Autenticacao;
 using Intelitrader.Dominio.Handlers.Usuarios;
+using Intelitrader.Dominio.Handlers.UsuariosHandler;
+using Intelitrader.Dominio.Repositorios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -21,6 +25,9 @@ namespace Intelitrader.Api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+
+        private IUsuarioRepositorio _usuarioRepositorio { get; set; }
+
         [Route("criarconta")]
         [HttpPost]
         public ResultadosComandosGenericos Signup(CriarContaComandos comandos, [FromServices] CriarContaHandle handle)
@@ -76,5 +83,34 @@ namespace Intelitrader.Api.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
+        [Route("AttConta")]
+        [Authorize(Roles = "Funcionario")]
+        [HttpPut]
+        public ResultadosComandosGenericos UpdateAccount(
+           [FromBody] AtualizarContaComandos command,
+           [FromServices] AtualizarContaHandle handler
+       )
+        {
+            var IdConta = HttpContext.User.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Jti);
+            command.IdConta = new Guid(IdConta.Value);
+
+            return (ResultadosComandosGenericos)handler.Handler(command);
+        }
+
+        [Authorize(Roles = "Funcionario")]
+        [HttpDelete("{id}")]
+        public ResultadosComandosGenericos Delete(Guid id)
+        {
+            try
+            {
+                _usuarioRepositorio.BuscarPorId(id);
+
+                return new ResultadosComandosGenericos(true, "Usuario excluída com sucesso", id);
+            }
+            catch (Exception erro)
+            {
+                return new ResultadosComandosGenericos(false, "Insira um Id válido", erro);
+            }
+        }
     }
 }
