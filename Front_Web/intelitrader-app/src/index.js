@@ -5,14 +5,17 @@ import reportWebVitals from './reportWebVitals';
 
 //rotas
 import Login from './pages/Login'
-import Cadastro from './pages/Cadastro'
+// import Cadastro from './pages/Cadastro'
+// import Cadastro from './pages/cadastrarVagas'
+import CadastroVagas from './pages/cadastrarVagas/CadastroVagas';
 
 const routing = (
   <React.StrictMode>
     <Router>
       <Routes>
         <Route path="/" componet={Login} element={<Login />}/>
-        <Route path="/" componet={Cadastro} element={<Cadastro />}/>
+        {/* <Route path="/Cadastro" componet={Cadastro} element={<Cadastro />}/> */}
+        <Route path="/CadastroVagas" componet={CadastroVagas} element={<CadastroVagas />}/>
       </Routes>
     </Router>
   </React.StrictMode >
