@@ -8,7 +8,7 @@ import config from "../../pages/cadastrarVagas/img/settings_black_24dp 1.png"
 import ajuda from "../../pages/cadastrarVagas/img/Vector.png"
 import sair from "../../pages/cadastrarVagas/img/Vector (1).png"
 import expand from "../../pages/cadastrarVagas/img/expand_more_black_24dp 8.png"
-import './cadastroVagas.css';
+import './cadastroFuncionario.css';
 // import Menu from '../../components/menu'
 
 export default class CadastroVagas extends Component {
@@ -77,39 +77,34 @@ export default class CadastroVagas extends Component {
                             <div className="topo">
                                 <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
                                 <p className="topo2">
-                                    Cadastro de vagas
+                                    Cadastro de Funcionario
                                 </p>
                             </div>
                             <div className="vagas">
                                 <form className='Vagas-form'>
                                     <div className='Vagas-form-input-container'>
                                         <label>Nome</label>
-                                        <input placeholder='Informe o nome da Vaga' />
+                                        <input placeholder='Informe o nome do Funcionario' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Descrição</label>
-                                        <input placeholder='Informe a descrição da Vaga' />
+                                        <label>CPF</label>
+                                        <input placeholder='Informe o CPF do Funcionario' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Quantidade</label>
-                                        <input placeholder='Informe o preço do Vagas' />
+                                        <label>Senha</label>
+                                        <input placeholder='Informe a senha do Funcionario' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Cargo</label>
-                                        <select>
-                                            <option disabled >Cargo da Vaga</option>
-                                        </select>
+                                        <label>Email</label>
+                                        <input placeholder='Informe o email do Funcionario' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Data</label>
-                                        <input placeholder='Informe da Vagas' />
+                                        <label>Telefone</label>
+                                        <input placeholder='Informe o telefone do Funcionario' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Tipo Vagas</label>
-                                        <select>
-                                            <option disabled >Tipo de Vaga</option>
-                                        </select>
-
+                                        <label>CodFuncionario</label>
+                                        <input placeholder='Informe o Códico do Funcionario' />
                                     </div>
 
                                     <div className="butao">
@@ -125,5 +120,3 @@ export default class CadastroVagas extends Component {
 
     };
 }
-
-
