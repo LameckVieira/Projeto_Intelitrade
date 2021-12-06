@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom
 import reportWebVitals from './reportWebVitals';
 
 //rotas
-import Login from './pages/Login'
-import Cadastro from './pages/Cadastro'
+import Login from './pages/Login/login'
+import Cadastro from './pages/Cadastro/cadastro'
+import VagasCandidato from './pages/VagasCandidato/candidatos';
 
 const routing = (
   <React.StrictMode>
@@ -13,6 +14,7 @@ const routing = (
       <Routes>
         <Route path="/" component={Login} element={<Login />}/>
         <Route path="/cadastro" component={Cadastro} element={<Cadastro />}/>
+        <Route path="/vagascandidatos" component={VagasCandidato} element={<VagasCandidato />}/>
       </Routes>
     </Router>
   </React.StrictMode >
