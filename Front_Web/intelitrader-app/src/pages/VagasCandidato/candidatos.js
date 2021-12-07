@@ -13,6 +13,7 @@ import './candidatos.css';
 
 export default function VagasCandidato(){
     return(
+    <>    
         <div>
             <main>
                 <section className="menu">
@@ -62,8 +63,26 @@ export default function VagasCandidato(){
                         </div>
                     </div>
                 </section>
+                <div className="fundo">
+                    <section className="vaga1">
+                        <div className="titulovaga1">
+                            <h1 className="nomevaga1">Desenvolvedor C#</h1>
+                        </div>
+                    </section>
+                    <section className="vaga2">
+                        <div className="titulovaga2">
+                            <h1 className="nomevaga2">Desenvolvedor React Native</h1>
+                        </div>
+                    </section>
+                    <section className="vaga3">
+                        <div className="titulovaga3">
+                        <h1 className="nomevaga3">Desenvolvedor Python</h1>
+                        </div>
+                    </section>
+                </div>
             </main>
         </div>
+    </>
     )
 }
      

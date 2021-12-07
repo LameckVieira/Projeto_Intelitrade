@@ -3,6 +3,10 @@
     box-sizing: 0;
 }
 
+main{
+    display: flex;
+}
+
 .menu{
     width: 474px;
     height: auto;
@@ -100,3 +104,36 @@
     color: #FE7B1D;
     margin-left: 40px;
 }
+
+.fundo{
+    background-color: #BFBFBF;
+    width: 1440px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    flex-wrap: wrap;
+}
+
+.vaga1{
+    background-color: #FFFFFF;
+    width: 1067px;
+    height: 307px;
+    margin-bottom: 85px;
+}
+
+.vaga2{
+    background-color: #FFFFFF;
+    width: 1067px;
+    height: 307px;
+    margin-bottom: 85px;
+}
+
+.vaga3{
+    background-color: #FFFFFF;
+    width: 1067px;
+    height: 307px;
+    margin-bottom: 1050px;
+}
+
