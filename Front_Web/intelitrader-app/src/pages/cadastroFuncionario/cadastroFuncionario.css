@@ -3,7 +3,6 @@
     box-sizing: 0;
 }
 
-
 .Quadradao1{
     width: 100%;
     height: 100%;
@@ -26,6 +25,7 @@
 .topo{
     width: 1109px;
     height: 135px;
+    
     display: flex;
     justify-content: space-around;
 
@@ -57,66 +57,52 @@
     width: 1109px;
     height: 872px;
 }
-.Vagas-div{
+.Vagas-form{
     width: 1109px;
     height: 872px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #BFBFBF;
+    background-color: rgb(255, 255, 255);
+    border-radius:  50px;
     box-shadow: -4px -2px 4px 2px rgba(50, 50, 50, 0.3);
 }
 
-.quadradinhovaga{
-    width: 1067px;
-    height: auto;
-    background-color: white;
-}
-
-.qualquercoisa{
-    width: 1067px;
-    height: 59px;
+.Vagas-form-input-container{
+    width: 500px;
+    height: 70px;
     display: flex;
-    font-size: 24px;
-    margin-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    
 }
-
-.cargo{
-    width: 1067px;
-    height: 59px;
-    font-size: 24px;
-    margin-left: 20px;
-}
-
-.descricao{
-    width: 1067px;
-    height: auto;
+.Vagas-form-input-container label{
+    font: var(--font-label);
     font-size: 20px;
-    margin-left: 20px;
+    color: rgba(50, 50, 50, 0.5);
+    
+    
 }
-
-.butao12{
-    width: 1067px;
-    height: 96px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.butao123{
-    width: 188px;
-    height: 50px;
-    background-color: #FE7B1D;
+.Vagas-form-input-container input, select{
     border: none;
-    border-radius: 15px;
-    margin-left: 30px;
+    background-color: transparent;
+    border-bottom: 5px solid black;
+    font-size: 22px;
+    width: 450px;
+    border-bottom: 2px solid rgba(50, 50, 50, 0.5);
+    line-height: 40px;
+}
+
+.butao{
+    border: none;
+    width: 427.14px;
+    height: 68px;
+    background-color: #FE7B1D;
     color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
 }
-
-.final{
-    display: flex;
-    margin-right: 20px;
-}
-

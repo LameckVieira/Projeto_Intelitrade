@@ -6,26 +6,42 @@
     height: 100vh;
 }
 
+.quadradao{
+    width: 802;
+    height: auto;
+}
+
 .titulo-painel{
     color: #FE7B1D;
-    margin-top: 15%;
-    margin-bottom: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .alinhar-inputs{
+    width: 802px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+}
+
+.quadradao1{
+    width: 510px;
+    height: 547px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input-painel{
-    width: 85%;
-    height: 35px;
-    padding: .5% 1% .5% 3% ;
+    width: 410px;
+    height: 60px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 10%;
+
 }
 
 .input-painel::placeholder{
@@ -33,15 +49,12 @@
 }
 
 .btn-login{
-    width: 88%;
-    height: 38px;
-    padding: .5% 1% .5% 3%;
+    width: 410px;
+    height: 60px;
     background-color: #FE7B1D;
     color: white;
     border-radius: 5px;
     border: none;
-    margin-top: 15%;
-    margin-bottom: 5%;
     font-size: 15px;
 }
 
