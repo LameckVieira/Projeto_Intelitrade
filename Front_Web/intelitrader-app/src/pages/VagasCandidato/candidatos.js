@@ -42,8 +42,7 @@ export default class VagasCandidato extends Component {
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao123">Candidatar</button>
                                             </div>
                                                 <p>Quantidade:</p>
                                             <div className="final">
@@ -64,8 +63,7 @@ export default class VagasCandidato extends Component {
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao123">Candidatar</button>
                                             </div>
                                                 <p>Quantidade:</p>
                                             <div className="final">
