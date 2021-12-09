@@ -5,7 +5,7 @@ import expand from "../../pages/cadastrarVagas/img/expand_more_black_24dp 8.png"
 import Menu from '../../components/menu/menu'
 import './vagasFuncionario.css';
 
-export default class VagasFuncionario extends Component {
+export default class Vagas extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,7 +24,7 @@ export default class VagasFuncionario extends Component {
                             <div className="topo">
                                 <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
                                 <p className="topo2">
-                                    Vagas Funcionario
+                                    Vagas Disponíveis
                                 </p>
                             </div>
                             <div className="vagas">
@@ -47,7 +47,6 @@ export default class VagasFuncionario extends Component {
                                                 <p className="alinhap">Quantidade:</p>
                                                 <p className="alinha2p">5</p>
                                             </div>
-                                            
                                             <div className="final">
                                                 <p>08/12/2021</p>
                                             </div>
