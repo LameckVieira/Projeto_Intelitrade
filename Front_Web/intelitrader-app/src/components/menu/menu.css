@@ -4,18 +4,18 @@
 }
 
 .menu{
-    width: 474px;
+    width: 400px;
     height: auto;
     background-color: #333333;
 }
 
 .menu1{
-    width: 474px;
+    width: 400px;
     height: auto;
 }
 
 .logoempresa{
-    width: 474px;
+    width: 400px;
     height: 154px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .perfil{
-    width: 474px;
+    width: 400px;
     height: 177px;
     display: flex;
     justify-content: center;   
@@ -40,18 +40,18 @@
 }
 
 .informacao{
-    width: 474px;
+    width: 400px;
     height: 57px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    color: #FE7B1D;
-    font-size: 20px;
+    color: hsl(25, 99%, 55%);
+    font-size: 17px;
 }
 
 .linkedin{
-    width: 474px;
+    width: 400px;
     height: 57px;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@
     justify-content: center;
     border: solid, 2px ;
     color: #FE7B1D ;
-    font-size: 20px;
+    font-size: 17px;
 }
 .link{
     color: #FE7B1D;
@@ -67,8 +67,8 @@
 }
 
 .quadradao{
-    width: 474px;
-    height: 450px;
+    width: 400px;
+    height: 420px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -76,18 +76,18 @@
 }
 
 .quadradinho{
-    width: 394.83px;
-    height: 68.21px;
+    width: 345px;
+    height: 55px;
     border-radius: 5px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 32px;
+    font-size: 18px;
 }
 
 .sair{
-    width: 474px;
+    width: 400px;
     height: 164px;
     display: flex;
     justify-content: flex-start;
@@ -96,7 +96,7 @@
 
 .sair1{
     display: flex;
-    font-size: 32px;
+    font-size: 24px;
     color: #FE7B1D;
     margin-left: 40px;
 }

@@ -28,8 +28,8 @@
 }
 
 .quadradao1{
-    width: 510px;
-    height: 547px;
+    width: 410px;
+    height: 410px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -37,9 +37,9 @@
 }
 
 .input-painel{
-    width: 410px;
+    width: 310px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
 
 }
@@ -49,11 +49,11 @@
 }
 
 .btn-login{
-    width: 410px;
-    height: 60px;
+    width: 365px;
+    height: 47px;
     background-color: #FE7B1D;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
 }

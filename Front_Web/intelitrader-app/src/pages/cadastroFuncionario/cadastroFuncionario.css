@@ -58,19 +58,17 @@
     height: 872px;
 }
 .Vagas-form{
-    width: 1109px;
+    width: 900px;
     height: 872px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin-left: 120px;
     background-color: rgb(255, 255, 255);
     border-radius:  50px;
     box-shadow: -4px -2px 4px 2px rgba(50, 50, 50, 0.3);
 }
 
 .Vagas-form-input-container{
-    width: 500px;
+    width: 473px;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -99,7 +97,7 @@
 .butao{
     border: none;
     width: 427.14px;
-    height: 68px;
+    height: 60px;
     background-color: #FE7B1D;
     color: white;
     font-size: 30px;

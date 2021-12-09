@@ -34,11 +34,11 @@
 
 .btn-cadastro{
     width: 88%;
-    height: 38px;
+    height: 43px;
     padding: .5% 1% .5% 3%;
     background-color: #FE7B1D;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,3 +60,4 @@ p a{
     
     color: #FE7B1D;
 }
+
