@@ -21,12 +21,6 @@ export default class CadastroVagas extends Component {
                     <section className="quadradao2">
                         <div className="quadradao3">
                             <Pesquisa/>
-                            {/* <div className="topo">
-                                <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
-                                <p className="topo2">
-                                    Cadastro de Funcionario
-                                </p>
-                            </div> */}
                             <div className="vagas">
                                 <form className='Vagas-form'>
                                     <div className='Vagas-form-input-container'>

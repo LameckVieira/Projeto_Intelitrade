@@ -6,9 +6,11 @@ import reportWebVitals from './reportWebVitals';
 //rotas
 import Login from './pages/Login/login'
 import Cadastro from './pages/Cadastro/cadastro'
-import VagasCandidato from './pages/VagasCandidato/candidatos';
+import VagasFuncionario from './pages/VagasFuncionario/vagasFuncionario';
+import Vagas from './pages/Vagas/vagas';
 import CadastroVagas from './pages/cadastrarVagas/CadastroVagas';
 import CadastroFuncionario from './pages/cadastroFuncionario/cadastrofuncionario';
+import Perfil from './pages/Perfil/perfil';
 
 const routing = (
   <React.StrictMode>
@@ -16,9 +18,11 @@ const routing = (
       <Routes>
         <Route path="/" component={Login} element={<Login />}/>
         <Route path="/cadastro" component={Cadastro} element={<Cadastro />}/>
-        <Route path="/vagascandidatos" component={VagasCandidato} element={<VagasCandidato />}/>
+        <Route path="/VagasFuncionario" component={VagasFuncionario} element={<VagasFuncionario />}/>
+        <Route path="/Vagas" component={Vagas} element={<Vagas />}/>
         <Route path="/CadastroVagas" componet={CadastroVagas} element={<CadastroVagas />}/>
         <Route path="/CadastroFuncionario" componet={CadastroFuncionario} element={<CadastroFuncionario />}/>
+        <Route path="/perfil" component={Perfil} element={<Perfil />}/>
       </Routes>
     </Router>
   </React.StrictMode >

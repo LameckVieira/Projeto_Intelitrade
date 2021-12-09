@@ -3,9 +3,9 @@ import { Component } from 'react';
 import lupa from '../../components/pesquisa/img/lupa.png'
 import expand from "../../pages/cadastrarVagas/img/expand_more_black_24dp 8.png"
 import Menu from '../../components/menu/menu'
-import './candidatos.css';
+import './vagas.css';
 
-export default class VagasCandidato extends Component {
+export default class Vagas extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,15 +24,15 @@ export default class VagasCandidato extends Component {
                             <div className="topo">
                                 <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
                                 <p className="topo2">
-                                    Cadastro de Funcionario
+                                    Vagas Disponíveis
                                 </p>
                             </div>
                             <div className="vagas">
                                 <div className='Vagas-div'>
-                                    <div className="quadradinhovaga">
+                                <div className="quadradinhovaga">
                                         <div className="qualquercoisa">
                                             <p>Densencolvedor C#</p>
-                                            <img src={expand}></img>
+                                            <img className="expand" src={expand}></img>
                                         </div>
                                         <div className="cargo">
                                             <p>Senior</p>
@@ -42,10 +42,10 @@ export default class VagasCandidato extends Component {
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao1234">Quero ser</button>
+                                                <p className="alinhap">Quantidade:</p>
+                                                <p className="alinha2p">5</p>
                                             </div>
-                                                <p>Quantidade:</p>
                                             <div className="final">
                                                 <p>08/12/2021</p>
                                             </div>
@@ -54,7 +54,7 @@ export default class VagasCandidato extends Component {
                                     <div className="quadradinhovaga">
                                         <div className="qualquercoisa">
                                             <p>Densencolvedor C#</p>
-                                            <img src={expand}></img>
+                                            <img className="expand" src={expand}></img>
                                         </div>
                                         <div className="cargo">
                                             <p>Senior</p>
@@ -64,16 +64,15 @@ export default class VagasCandidato extends Component {
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao1234">Quero ser</button>
+                                                <p className="alinhap">Quantidade:</p>
+                                                <p className="alinha2p">5</p>
                                             </div>
-                                                <p>Quantidade:</p>
                                             <div className="final">
                                                 <p>08/12/2021</p>
                                             </div>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
