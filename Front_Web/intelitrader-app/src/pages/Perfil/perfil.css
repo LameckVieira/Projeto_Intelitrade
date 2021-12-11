@@ -24,11 +24,10 @@
 }
 
 .topo{
-    width: 1109px;
-    height: 135px;
+    width: 1020px;
+    height: 120px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .topo1{
@@ -54,7 +53,7 @@
 
 .progresso{
     width: 1033px;
-    height: 348px;
+    height: 280px;
     display: flex;
     /* background-color: blue; */
     justify-content: space-between;
@@ -70,6 +69,8 @@
 
 .meuprogresso{
     color: #FE7B1D;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .meudados{
@@ -77,9 +78,98 @@
     height: auto;
 }
 
-.dados{
+.dados1{
+    margin-left: 15px;
+}
+
+.dados2{
     width: 1033px;
     height: 75px;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dados3{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dados4{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.dados5{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.dados5{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.dados6{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.dados7{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dados8{
+    width: 1033px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    cursor: pointer;
 }

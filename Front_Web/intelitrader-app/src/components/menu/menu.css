@@ -60,6 +60,7 @@
     border: solid, 2px ;
     color: #FE7B1D ;
     font-size: 17px;
+    cursor: pointer;
 }
 .link{
     color: #FE7B1D;
@@ -84,6 +85,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .sair{
@@ -99,4 +101,5 @@
     font-size: 24px;
     color: #FE7B1D;
     margin-left: 40px;
+    cursor: pointer
 }

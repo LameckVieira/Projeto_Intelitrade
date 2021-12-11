@@ -20,7 +20,7 @@ export default class pesquisa extends Component {
                     <section className="pesquisa">
                         <div className="topo">
                             <div>
-                            <img className="pesquisaimg" src={lupa}></img>
+                            {/* <img className="pesquisaimg" src={lupa}></img> */}
                             <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
                             </div>
                             

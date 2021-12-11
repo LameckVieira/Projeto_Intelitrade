@@ -31,14 +31,14 @@ export default class Vagas extends Component {
                                 <div className='Vagas-div'>
                                     <div className="quadradinhovaga">
                                         <div className="qualquercoisa">
-                                            <p>Densencolvedor C#</p>
+                                            <p>Densenvolvedor C#</p>
                                             <img className="expand" src={expand}></img>
                                         </div>
                                         <div className="cargo">
                                             <p>Senior</p>
                                         </div>
                                         <div className="descricao">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley <br></br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
@@ -61,7 +61,7 @@ export default class Vagas extends Component {
                                             <p>Senior</p>
                                         </div>
                                         <div className="descricao">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley <br></br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">

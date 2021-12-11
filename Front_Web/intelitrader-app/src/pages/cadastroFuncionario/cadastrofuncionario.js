@@ -4,11 +4,11 @@ import './cadastroFuncionario.css';
 import Menu from '../../components/menu/menu'
 import Pesquisa from '../../components/pesquisa/pesquisa'
 
-export default class CadastroVagas extends Component {
+export default class CadastroFuncionario extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            CadastrarVagas: ''
+            cadastroFuncionar: ''
 
         }
 
@@ -22,7 +22,7 @@ export default class CadastroVagas extends Component {
                         <div className="quadradao3">
                             <Pesquisa/>
                             <div className="vagas">
-                                <form className='Vagas-form'>
+                                <form className='Vagas-form-c'>
                                     <div className='Vagas-form-input-container'>
                                         <label>Nome</label>
                                         <input placeholder='Informe o nome do Funcionario' />

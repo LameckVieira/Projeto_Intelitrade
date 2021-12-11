@@ -11,8 +11,7 @@
     width: 1109px;
     height: 135px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .pesquisaimg{

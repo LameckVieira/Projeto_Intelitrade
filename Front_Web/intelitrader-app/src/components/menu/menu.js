@@ -1,4 +1,11 @@
 import { Component } from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    useParams,
+    Link
+  } from "react-router-dom";
 import logo from "../../pages/cadastrarVagas/img/g12.png"
 import perfil from "../../pages/cadastrarVagas/img/perfil.jfif"
 import notificações from "../../pages/cadastrarVagas/img/Vector.svg"
@@ -33,7 +40,7 @@ export default class Menu extends Component {
                             </div>
                             <div className="informacao">
                                 <p> Lameck Vieira Barbosa</p>
-                                <p>Email</p>
+                                <p>lameck.v.barbosa@gmail.com</p>
                             </div>
                             <div className="linkedin">
                                 <div className="linke">
@@ -66,7 +73,7 @@ export default class Menu extends Component {
                             <div className="sair">
                                 <div className="sair1">
                                     <img src={sair}></img>
-                                    <p>Sair</p>
+                                    <p><Link to="/Login">Sair</Link></p>
                                 </div>
                             </div>
                         </div>

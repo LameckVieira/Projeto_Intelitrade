@@ -17,7 +17,7 @@ export default function Cadastro() {
             <Painel>
                 <h1 className="titulo-painel">Cadastro</h1>
                 <div className="alinhar-inputs">
-                    <form>
+                    <form className="quadradao1">
                         <input className="input-painel" placeholder="Nome" />
                         <input className="input-painel" placeholder="CPF" />
                         <input className="input-painel" placeholder="Telefone" />
@@ -27,7 +27,7 @@ export default function Cadastro() {
                     </form>
                 </div>        
                 <div className="realizar-cadastro">
-                    <p>Já possui conta?<Link to="/"> Login</Link></p>
+                    <p>Já possui conta?<Link to="/Login">Login</Link></p>
                 </div>
             </Painel>
         </div>

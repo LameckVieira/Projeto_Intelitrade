@@ -19,8 +19,8 @@ export default function Login() {
                     <h1 className="titulo-painel">Login</h1>
                     <div className="alinhar-inputs">
                         <form  className="quadradao1">
-                            <input className="input-painel" placeholder="Email" />
-                            <input className="input-painel" type="password" placeholder="Senha" />
+                            <input className="input-painel" placeholder="Email"/>
+                            <input className="input-painel" type="password" placeholder="Senha"/>
                             <button className="btn-login">Entrar</button>
                         </form>
                     </div>

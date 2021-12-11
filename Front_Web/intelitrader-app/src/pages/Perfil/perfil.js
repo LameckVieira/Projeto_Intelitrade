@@ -35,8 +35,33 @@ export default class perfil extends Component {
                                 </div>
                             </div>
                             <div className="meudados">
-                                <div className="dados">
-                                    <p>Dados pessoais</p>
+                                <div className="dados2">
+                                    <p className="dados1">Dados pessoais</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados3">
+                                    <p className="dados1">Objetivos</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados4">
+                                    <p className="dados1">Resumo profissional</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados5">
+                                    <p className="dados1">Formação acadêmica e complementar</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados6">
+                                    <p className="dados1">Idiomas</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados7">
+                                    <p className="dados1">Histórico profissional</p>
+                                    <img src={expand}></img>
+                                </div>
+                                <div className="dados8">
+                                    <p className="dados1">Informações complementares</p>
+                                    <img src={expand}></img>
                                 </div>
 
                             </div>
