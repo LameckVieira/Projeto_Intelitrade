@@ -29,30 +29,30 @@ export default class CadastroVagas extends Component {
                                 <form className='Vagas-form'>
                                     <div className='Vagas-form-input-container'>
                                         <label>Nome</label>
-                                        <input placeholder='Informe o nome da Vaga' />
+                                        <input placeholder='Título da vaga' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Descrição</label>
-                                        <input placeholder='Informe a descrição da Vaga' />
+                                        <input placeholder='Descrição da vaga' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Quantidade</label>
-                                        <input placeholder='Informe o preço do Vagas' />
+                                        <input placeholder='Quantidade de vagas disponíveis' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Cargo</label>
+                                        <label>Nível de experiência da vaga</label>
                                         <select>
-                                            <option disabled >Cargo da Vaga</option>
+                                            <option disabled >Nível da vaga</option>
                                         </select>
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Data</label>
-                                        <input placeholder='Informe da Vagas' />
+                                        <input placeholder='Data de criação da vaga' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>Tipo Vagas</label>
+                                        <label>Área de atuação da vaga</label>
                                         <select>
-                                            <option disabled >Tipo de Vaga</option>
+                                            <option disabled >Área da vaga</option>
                                         </select>
 
                                     </div>

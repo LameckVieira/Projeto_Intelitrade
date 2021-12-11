@@ -25,27 +25,27 @@ export default class CadastroFuncionario extends Component {
                                 <form className='Vagas-form-c'>
                                     <div className='Vagas-form-input-container'>
                                         <label>Nome</label>
-                                        <input placeholder='Informe o nome do Funcionario' />
+                                        <input placeholder='Nome do funcionário' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>CPF</label>
-                                        <input placeholder='Informe o CPF do Funcionario' />
+                                        <input placeholder='CPF do funcionário' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Senha</label>
-                                        <input placeholder='Informe a senha do Funcionario' />
+                                        <input placeholder='Senha do funcionário' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Email</label>
-                                        <input placeholder='Informe o email do Funcionario' />
+                                        <input placeholder='Email do funcionário' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
                                         <label>Telefone</label>
-                                        <input placeholder='Informe o telefone do Funcionario' />
+                                        <input placeholder='Telefone do funcionário' />
                                     </div>
                                     <div className='Vagas-form-input-container'>
-                                        <label>CodFuncionario</label>
-                                        <input placeholder='Informe o Códico do Funcionario' />
+                                        <label>CodFuncionário</label>
+                                        <input placeholder='Código do funcionário' />
                                     </div>
 
                                     <div className="butao">
