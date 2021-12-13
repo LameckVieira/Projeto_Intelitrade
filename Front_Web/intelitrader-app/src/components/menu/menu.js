@@ -73,7 +73,7 @@ export default class Menu extends Component {
                             <div className="sair">
                                 <div className="sair1">
                                     <img src={sair}></img>
-                                    <p><Link to="/Login">Sair</Link></p>
+                                    <p><Link to="/">Sair</Link></p>
                                 </div>
                             </div>
                         </div>

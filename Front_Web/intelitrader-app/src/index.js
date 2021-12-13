@@ -16,7 +16,7 @@ const routing = (
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/Login" component={Login} element={<Login />}/>
+        <Route path="/" component={Login} element={<Login />}/>
         <Route path="/cadastro" component={Cadastro} element={<Cadastro />}/>
         <Route path="/VagasFuncionario" component={VagasFuncionario} element={<VagasFuncionario />}/>
         <Route path="/VagasCandidatos" component={VagasCandidatos} element={<VagasCandidatos />}/>

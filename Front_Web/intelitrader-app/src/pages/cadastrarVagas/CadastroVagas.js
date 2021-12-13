@@ -8,6 +8,7 @@ export default class CadastroVagas extends Component {
         super(props);
         this.state = {
             CadastrarVagas: ''
+            
 
         }
 
