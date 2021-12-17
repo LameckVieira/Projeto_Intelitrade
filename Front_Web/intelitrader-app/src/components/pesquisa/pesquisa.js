@@ -25,7 +25,7 @@ export default class pesquisa extends Component {
                             </div>
                             
                             <p className="topo2">
-                                Cadastro de Funcionario
+                                Cadastro de Funcionário
                             </p>
                         </div>
                     </section>

@@ -43,7 +43,7 @@ export default function Login() {
                         <form  className="quadradao1" onSubmit={efetuarLogin}>
                             <input className="input-painel" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                             <input className="input-painel" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)}/>
-                            <button className="btn-login" type="submit">Entrar</button>
+                            <button className="btn-login" type="submit"><Link to="/Perfil">Entrar</Link></button>
                         </form>
                     </div>
                     <div className="realizar-cadastro">

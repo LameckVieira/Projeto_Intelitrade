@@ -24,54 +24,54 @@ export default class Vagas extends Component {
                             <div className="topo">
                                 <input className="topo1" placeholder='Pesquise por vagas na nossa empresa' />
                                 <p className="topo2">
-                                    Vagas Disponíveis
+                                    Vagas Funcionário
                                 </p>
                             </div>
                             <div className="vagas">
                                 <div className='Vagas-div'>
                                     <div className="quadradinhovaga">
                                         <div className="qualquercoisa">
-                                            <p>Densenvolvedor C#</p>
+                                            <p>Desenvolvedor C#</p>
                                             <img className="expand" src={expand}></img>
                                         </div>
                                         <div className="cargo">
-                                            <p>Senior</p>
+                                            <p>Pleno</p>
                                         </div>
                                         <div className="descricao">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                                            <p>VAMOOOO!!</p>
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao123"> Editar </button>
+                                                <button className="butao123"> Excluir </button>
                                                 <p className="alinhap">Quantidade:</p>
                                                 <p className="alinha2p">5</p>
                                             </div>
                                             <div className="final">
-                                                <p>08/12/2021</p>
+                                                <p>16/12/2021</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="quadradinhovaga">
                                         <div className="qualquercoisa">
-                                            <p>Densencolvedor C#</p>
+                                            <p>Desenvolvedor .NET</p>
                                             <img className="expand" src={expand}></img>
                                         </div>
                                         <div className="cargo">
-                                            <p>Senior</p>
+                                            <p>Sênior</p>
                                         </div>
                                         <div className="descricao">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                                            <p>Venha trabalhar aqui</p>
                                         </div>
                                         <div className="butao12">
                                             <div className="alinha">
-                                                <button className="butao123">Editar</button>
-                                                <button className="butao123">Excluir</button>
+                                                <button className="butao123"> Editar </button>
+                                                <button className="butao123"> Excluir </button>
                                                 <p className="alinhap">Quantidade:</p>
                                                 <p className="alinha2p">5</p>
                                             </div>
                                             <div className="final">
-                                                <p>08/12/2021</p>
+                                                <p>17/12/2021</p>
                                             </div>
                                         </div>
                                     </div>

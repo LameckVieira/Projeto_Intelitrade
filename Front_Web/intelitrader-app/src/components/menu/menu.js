@@ -5,9 +5,9 @@ import {
     Route,
     useParams,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 import logo from "../../pages/cadastrarVagas/img/g12.png"
-import perfil from "../../pages/cadastrarVagas/img/perfil.jfif"
+import perfil from "../../assets/img/perfil.jpg"
 import notificações from "../../pages/cadastrarVagas/img/Vector.svg"
 import curriculo from "../../pages/cadastrarVagas/img/description_black_24dp 1.svg"
 import config from "../../pages/cadastrarVagas/img/settings_black_24dp 1.png"
@@ -39,8 +39,8 @@ export default class Menu extends Component {
                                 <img className="perfilimg" src={perfil}></img>
                             </div>
                             <div className="informacao">
-                                <p> Lameck Vieira Barbosa</p>
-                                <p>lameck.v.barbosa@gmail.com</p>
+                                <p><Link to="/Perfil">Lameck Vieira Barbosa</Link></p>
+                                <p>lameck@gmail.com</p>
                             </div>
                             <div className="linkedin">
                                 <div className="linke">
@@ -51,22 +51,22 @@ export default class Menu extends Component {
                             <div className="quadradao">
                                 <div className="quadradinho">
                                     <img src={notificações}></img>
-                                    <p>Notificações</p>
+                                    <p><Link to="/VagasCandidatos">Notificações</Link></p>
                                     <img src={expand}></img>
                                 </div>
                                 <div className="quadradinho">
                                     <img src={curriculo}></img>
-                                    <p>Meu Currículo</p>
+                                    <p><Link to="/VagasFuncionario">Meu Currículo</Link></p>
                                     <img src={expand}></img>
                                 </div>
                                 <div className="quadradinho">
                                     <img src={config}></img>
-                                    <p>Configurações</p>
+                                    <p><Link to="/CadastroVagas">Configurações</Link></p>
                                     <img src={expand}></img>
                                 </div>
                                 <div className="quadradinho">
                                     <img src={ajuda}></img>
-                                    <p>Central de ajuda</p>
+                                    <p><Link to="/CadastroFuncionario">Central de ajuda</Link></p>
                                     <img src={expand}></img>
                                 </div>
                             </div>

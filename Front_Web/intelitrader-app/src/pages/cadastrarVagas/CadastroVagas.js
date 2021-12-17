@@ -43,7 +43,11 @@ export default class CadastroVagas extends Component {
                                     <div className='Vagas-form-input-container'>
                                         <label>Nível de experiência da vaga</label>
                                         <select>
-                                            <option disabled >Nível da vaga</option>
+                                            <option >Nível da vaga</option>
+                                            <option >Pleno</option>
+                                            <option >Sênior</option>
+                                            <option >Júnior</option>
+                                            <option >Estagiário</option>
                                         </select>
                                     </div>
                                     <div className='Vagas-form-input-container'>
@@ -53,7 +57,10 @@ export default class CadastroVagas extends Component {
                                     <div className='Vagas-form-input-container'>
                                         <label>Área de atuação da vaga</label>
                                         <select>
-                                            <option disabled >Área da vaga</option>
+                                            <option >Área da vaga</option>
+                                            <option >C#</option>
+                                            <option >.NET</option>
+                                            <option >JS</option>
                                         </select>
 
                                     </div>

@@ -23,11 +23,11 @@ export default function Cadastro() {
                         <input className="input-painel" placeholder="Telefone" />
                         <input className="input-painel" placeholder="Email" />
                         <input className="input-painel" type="password" placeholder="Senha" />
-                        <button className="btn-cadastro">Cadastre-se</button>
+                        <button className="btn-cadastro"><Link to="/">Cadastre-se</Link></button>
                     </form>
                 </div>        
                 <div className="realizar-cadastro">
-                    <p>Já possui conta?<Link to="/Login">Login</Link></p>
+                    <p>Já possui conta?<Link to="/">Login</Link></p>
                 </div>
             </Painel>
         </div>

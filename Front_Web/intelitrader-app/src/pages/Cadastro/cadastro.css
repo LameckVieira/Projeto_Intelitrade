@@ -32,6 +32,11 @@
     color: #FE7B1D;
 }
 
+.btn-login{
+    text-decoration: none;
+    color: white;
+}
+
 .btn-cadastro{
     width: 88%;
     height: 43px;
@@ -43,6 +48,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 15px;
+    
 }
 
 .btn-cadastro:hover{
